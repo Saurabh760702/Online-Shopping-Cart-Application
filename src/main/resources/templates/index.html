@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+              th:replace="~{base::Layout(~{::section})}">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+     <section>
+     
+    <!-- Start Slider -->
+    
+   <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/ecom1.png" class="d-block w-100" alt="..."
+       height="350px">
+    </div>
+    <div class="carousel-item">
+      <img src="img/ecom3.png" class="d-block w-100" alt="..."
+       height="350px">
+    </div>
+    <div class="carousel-item">
+ <img src="img/ecom2.png" class="d-block w-100" alt="..."
+  height="350px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- End Slider -->
+ 
+      <!-- Start category module -->
+            
+   <div class="container">
+      <div class="row">
+          <p class="text-center fs-4">Category</p>
+          <div class="col-md-2">
+            <div 
+                 class="card rounded-circle shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                 <div class="card-body text-center">
+                 <img src="img/category_img/appli.png" width="65%" height="140px">
+                 <p>Electronics</p>                 
+                 </div>
+            </div>
+         </div>
+         
+         <div class="col-md-2">
+            <div 
+                 class="card rounded-circle shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                 <div class="card-body text-center">
+                 <img src="img/category_img/beuty.png" width="65%" height="140px">
+                 <p>Beuties</p>                 
+                 </div>
+            </div>
+         </div>
+         
+         <div class="col-md-2">
+            <div 
+                 class="card rounded-circle shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                 <div class="card-body text-center">
+                 <img src="img/category_img/mobile.png" width="65%" height="140px">
+                 <p>Mobiles</p>                 
+                 </div>
+            </div>
+         </div>
+         
+         <div class="col-md-2">
+            <div 
+                 class="card rounded-circle shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                 <div class="card-body text-center">
+                 <img src="img/category_img/pant.png" width="65%" height="140px">
+                 <p>Pants</p>                 
+                 </div>
+            </div>
+         </div>
+         
+         <div class="col-md-2">
+            <div 
+                 class="card rounded-circle shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                 <div class="card-body text-center">
+                 <img src="img/category_img/laptop.jpg" width="65%" height="140px">
+                 <p>laptops</p>                 
+                 </div>
+            </div>
+         </div>
+         
+         <div class="col-md-2">
+            <div 
+                 class="card rounded-circle shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                 <div class="card-body text-center">
+                 <img src="img/category_img/groccery.jpg" width="65%" height="140px">
+                 <p>Grocery</p>                 
+                 </div>
+            </div>
+         </div>
+        
+      </div>           
+  </div>
+      
+      <!-- End catogery model -->
+      
+      <!-- Start latest product modules -->
+      
+      <div class="container-fiuid bg-Light p-3">
+        <div class="row">
+          <p class="text-center fs-4">Latest Products</p>  
+                  
+           <div class="col-md-3">
+             <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                <div class="card-body text-center">
+                  <img alt="" src="img/product_img/hp laptop.jpg" class="" width="65%"
+                      height="140px">
+              <p class="text-center">Hp Laptop</p>
+               </div> 
+           </div>
+        </div>
+        
+        <div class="col-md-3">
+             <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                <div class="card-body text-center">
+                  <img alt="" src="img/product_img/washing_machine.png" class="" width="65%"
+                      height="140px">
+              <p class="text-center">Washing Machine </p>
+               </div> 
+           </div>
+        </div>
+        
+        <div class="col-md-3">
+             <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                <div class="card-body text-center">
+                  <img alt="" src="img/product_img/iphone 14.jpg" class="" width="65%"
+                      height="140px">
+              <p class="text-center">Iphone14</p>
+               </div> 
+           </div>
+        </div>
+        
+        <div class="col-md-3">
+             <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                <div class="card-body text-center">
+                  <img alt="" src="img/product_img/fridge.png" class="" width="65%"
+                      height="140px">
+              <p class="text-center">Fridge</p>
+               </div> 
+           </div>
+        </div>
+     </div>      
+  </div>
+        <!-- End latest product modules -->
+     </section>
+</body>
+</html>
